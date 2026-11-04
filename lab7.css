@@ -1,0 +1,82 @@
+.service-box {
+  display: inline-block;
+  border: 5px solid white; /* Added a solid black border */
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.service-box:hover {
+  background-color: rgb(4, 164, 218);
+  color: white;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  transform: scale(1.05);
+}
+.security-box {
+  display: block;
+  margin: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+
+  animation-name: easy;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 4s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes easy {
+  from {
+    left: 10px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+.header {
+  padding: 20px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+.header:hover {
+  background-color: navy;
+  color: white;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  transform: scale(1.55);
+}
+
+#hero-banner {
+  background-color: rgb(11, 20, 141);
+  color: rgb(132, 220, 255);
+  margin: 0 auto;
+  width: 90%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#security-banner {
+  background-color: rgb(11, 20, 141);
+  color: rgb(132, 220, 255);
+  margin: 0 auto;
+  width: 90%;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+}
+h2 {
+  font-family: Arial, sans-serif;
+  color: lightblue;
+}
+
+body {
+  background-color: lightgray;
+}
